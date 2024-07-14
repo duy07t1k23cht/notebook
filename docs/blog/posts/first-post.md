@@ -3,10 +3,10 @@
 date: 2024-07-13
 authors:
     - me
-# categories:
-#     - Test
-#     - ":flag_gb:"
-# slug: test
+categories:
+    - Test
+    - ":flag_gb:"
+slug: test
 ---
 
 # **This is a test post**
