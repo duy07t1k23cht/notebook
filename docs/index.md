@@ -2,7 +2,7 @@
 
 Mục đích của trang blog này là **{==để cá nhân mình note lại mọi thứ mà mình thấy cần thiết cho bản thân==}**, bao gồm những thứ liên quan đến công việc engineer của mình, từ mấy cái nhỏ như các thuật toán thiếu nhi, đến mấy cái lớn hơn như System Design, hay các thuật toán Machine Learning,... (chắc chủ yếu sẽ là những cái nhỏ, vì mấy cái to mình lười viết :fontawesome-solid-face-laugh:)
 
-Ngoài ra những thứ linh tinh như cảm nhận của bản thân mình sau khi xem một bộ phim, review về một món đồ linh tinh nào đấy mua trên sàn S hay sàn L, hay cảm xúc sau một chuyến đi chơi ở đâu đấy thì có thể cũng được ghi lên đây luôn :v
+Ngoài ra những thứ linh tinh như cảm nhận cá nhân sau khi xem một bộ phim, review về một món đồ linh tinh nào đấy mua trên sàn S hay sàn L, hay cảm xúc sau một chuyến đi chơi ở đâu đấy thì có thể cũng được ghi lên đây luôn :v
 
 !!! info "Lời nhắn nhủ"
 
