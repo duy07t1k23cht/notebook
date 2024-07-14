@@ -23,7 +23,7 @@ theme:
         # Palette toggle for light mode
         - media: "(prefers-color-scheme: dark)"
           scheme: slate
-          # primary: custom
+          primary: black
           accent: teal
           toggle:
               icon: material/brightness-7
