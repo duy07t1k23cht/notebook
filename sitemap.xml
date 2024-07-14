@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://duynm98/</loc>
+         <loc>https://duynm98.github.io/notebook/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98/the-first-blog/</loc>
+         <loc>https://duynm98.github.io/notebook/the-first-blog/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98/blog/</loc>
+         <loc>https://duynm98.github.io/notebook/blog/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98/blog/test-post/</loc>
+         <loc>https://duynm98.github.io/notebook/blog/test/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98/blog/2024/07/13/test/</loc>
+         <loc>https://duynm98.github.io/notebook/blog/test-folder/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98/blog/category/test/</loc>
+         <loc>https://duynm98.github.io/notebook/blog/category/test/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98/blog/category/flag_gb/</loc>
+         <loc>https://duynm98.github.io/notebook/blog/category/flag_gb/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98/tags/</loc>
+         <loc>https://duynm98.github.io/notebook/tags/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
