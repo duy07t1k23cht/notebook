@@ -1,3 +1,1 @@
-# Test
-
-!include "includes/footnotes.md"
+# Tags
