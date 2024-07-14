@@ -14,6 +14,9 @@ nav:
     - LeetCode series:
           - leetcode/index.md
           - leetcode/1175.md
+    # - Courses:
+    #       - courses/index.md
+    #       - System Design Interview: courses/mastering-system-design-interview/index.md
     - Blog:
           - blog/index.md
 
