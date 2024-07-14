@@ -1,0 +1,146 @@
+site_name: DuyNM98's Notebook
+site_url: https://duynm98
+site_description: My Notebook
+site_author: myAwesomeCompany Inc
+extra_css:
+    - "css/extra_css"
+    - stylesheets/extra.css
+
+nav:
+    - Home: index.md
+    - Blog:
+          - blog/index.md
+
+theme:
+    palette:
+        # # Palette toggle for automatic mode
+        # - media: "(prefers-color-scheme)"
+        #   primary: custom
+        #   toggle:
+        #       icon: material/brightness-auto
+        #       name: Switch to light mode
+
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          # primary: custom
+          accent: teal
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          # primary: custom
+          accent: teal
+          toggle:
+              icon: material/brightness-4
+              name: Switch to system preference
+
+    name: "material"
+    language: "en"
+    #palette:
+    #primary: 'indigo'
+    #accent: 'indigo'
+    font:
+        text: "Roboto"
+        code: "Roboto Mono"
+    icon:
+        logo: material/library
+        favicon: material/chevron-right-circle
+        annotation: material/chevron-right-circle
+    features:
+        - navigation.instant
+        - navigation.instant.prefetch
+        - navigation.instant.progress
+        - navigation.tabs
+        # - navigation.tabs.sticky # Tabs always visible
+        # - navigation.expand
+        - navigation.sections
+        - navigation.path
+        - navigation.indexes
+        # - navigation.footer
+        - navigation.top # Back-to-top button
+        - header.autohide
+        - toc.follow
+        - toc.integrate # Tables of content on the left side
+        - content.code.copy
+        - content.code.select
+        - content.code.annotate
+        - content.footnote.tooltips
+        - content.tooltips
+        - search.suggest # the search will display the likeliest completion for the last word which can be accepted with the Right key
+        # - search.highlight # a user clicks on a search result, highlight all occurrences after following the link
+
+markdown_extensions:
+    - abbr
+    - footnotes
+    - tables
+    - admonition
+    - attr_list
+    - md_in_html
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.superfences:
+          custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.inlinehilite
+    - pymdownx.snippets:
+          auto_append:
+              - includes/abbreviations.md
+              # - includes/footnotes.md
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - def_list
+    - pymdownx.tasklist:
+          custom_checkbox: true
+
+extra_javascript:
+    - javascripts/mathjax.js
+    - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+    - glightbox
+    - search
+    - blog:
+          archive: false
+    - tags:
+          tags_file: tags.md
+    # - rss:
+    #       match_path: ".*"
+    #       date_from_meta:
+    #           as_creation: date
+    #       categories:
+    #           - categories
+    #           - tags
+    # - git-revision-date-localized:
+    #       enable_creation_date: true
+
+watch:
+    - includes
+
+extra:
+    social:
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com/in/duynm1009/
+        - icon: fontawesome/brands/tiktok
+          link: https://www.tiktok.com/@chikodevn
+# repo_url: https://github.com/duy07t1k23cht/my-blog
+# repo_name: duy07t1k23cht/my-blog
