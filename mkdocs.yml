@@ -29,17 +29,17 @@ theme:
           primary: black
           accent: teal
           toggle:
-              icon: material/brightness-7
-              name: Switch to dark mode
+              icon: material/brightness-4
+              name: Switch to light mode
 
         # Palette toggle for dark mode
         - media: "(prefers-color-scheme: light)"
           scheme: default
-          # primary: custom
+          primary: deep purple
           accent: teal
           toggle:
-              icon: material/brightness-4
-              name: Switch to system preference
+              icon: material/brightness-7
+              name: Switch to dark mode
 
     name: "material"
     language: "en"
@@ -143,9 +143,13 @@ watch:
 extra:
     social:
         - icon: fontawesome/brands/linkedin
-          link: https://www.linkedin.com/in/duynm1009/
+          link: https://www.linkedin.com/in/duynm1009
+        - icon: fontawesome/brands/github
+          link: https://github.com/duynm98
         - icon: fontawesome/brands/tiktok
           link: https://www.tiktok.com/@chikodevn
+        - icon: fontawesome/brands/instagram
+          link: https://www.instagram.com/hnp.w.u
           
 # repo_url: https://github.com/duy07t1k23cht/my-blog
 # repo_name: duy07t1k23cht/my-blog
