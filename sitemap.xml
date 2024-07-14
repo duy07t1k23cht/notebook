@@ -6,32 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98.github.io/notebook/the-first-blog/</loc>
-         <lastmod>2024-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://duynm98.github.io/notebook/blog/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98.github.io/notebook/blog/test/</loc>
+         <loc>https://duynm98.github.io/notebook/blog/apache-hadoop-overview/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98.github.io/notebook/blog/test-folder/</loc>
-         <lastmod>2024-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://duynm98.github.io/notebook/blog/category/test/</loc>
-         <lastmod>2024-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://duynm98.github.io/notebook/blog/category/flag_gb/</loc>
+         <loc>https://duynm98.github.io/notebook/blog/category/system-design/</loc>
          <lastmod>2024-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
