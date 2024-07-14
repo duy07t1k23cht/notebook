@@ -6,7 +6,7 @@ Ngoài ra những thứ linh tinh như cảm nhận của bản thân mình sau 
 
 !!! info "Lời nhắn nhủ"
 
-    Mình biết là trình độ của mình còn gà, nên những bài post về công nghệ của mình mà xuất hiện kiến thức gì đấy sai hoặc lỗi thời là chuyện bình thường. Nếu mà phát hiện ra mình sai chỗ nào thì mong bạn đọc hoan hỉ nhắc nhở mình theo các kênh contact mình để góc dưới bên phải của page (mình rất mong điều này xảy ra vì sai ở đâu thì bản thân nên biết càng sớm càng tốt để mà sửa :smiling_face_with_tear:)
+    Mình biết là trình độ của mình còn gà, nên những bài post về công nghệ của mình mà xuất hiện kiến thức gì đấy sai hoặc lỗi thời là chuyện bình thường. **Nếu mà phát hiện ra mình sai chỗ nào thì mong bạn đọc hoan hỉ nhắc nhở mình** theo các kênh contact mình để góc dưới bên phải của page (mình rất mong điều này xảy ra vì sai ở đâu thì bản thân nên biết càng sớm càng tốt để mà sửa :smiling_face_with_tear:)
 
 !!! tip "Góc xin xỏ"
 
