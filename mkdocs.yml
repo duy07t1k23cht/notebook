@@ -1,10 +1,13 @@
 site_name: DuyNM98's Notebook
-site_url: https://duynm98
+site_url: https://duynm98.github.io/notebook/
 site_description: My Notebook
 site_author: myAwesomeCompany Inc
 extra_css:
     - "css/extra_css"
     - stylesheets/extra.css
+
+repo_url: https://github.com/duynm98/notebook
+repo_name: duynm98/notebook
 
 nav:
     - Home: index.md
@@ -64,7 +67,7 @@ theme:
         - navigation.top # Back-to-top button
         - header.autohide
         - toc.follow
-        - toc.integrate # Tables of content on the left side
+        # - toc.integrate # Tables of content on the left side
         - content.code.copy
         - content.code.select
         - content.code.annotate
@@ -121,6 +124,7 @@ plugins:
     - search
     - blog:
           archive: false
+          post_url_format: "{slug}"
     - tags:
           tags_file: tags.md
     # - rss:
@@ -142,5 +146,6 @@ extra:
           link: https://www.linkedin.com/in/duynm1009/
         - icon: fontawesome/brands/tiktok
           link: https://www.tiktok.com/@chikodevn
+          
 # repo_url: https://github.com/duy07t1k23cht/my-blog
 # repo_name: duy07t1k23cht/my-blog

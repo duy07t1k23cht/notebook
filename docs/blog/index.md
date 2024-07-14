@@ -1,1 +1,1 @@
-# Recent Posts
+# **Recent Posts**

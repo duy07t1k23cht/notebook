@@ -1,11 +1,9 @@
 ---
-
-date: 2024-07-13
+date: 2024-07-13 00:00:00
 authors:
     - me
 categories:
     - Test
-    - ":flag_gb:"
 slug: test
 ---
 
