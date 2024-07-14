@@ -10,6 +10,8 @@ Giới hạn ràng buộc của bài toán có thể cũng thay luôn, vì nhi�
 
 Chủ yếu là để tái sử dụng nếu cần. Các bài toán hầu hết sẽ được code bằng :simple-cplusplus:
 
+--8<-- "utils/warn-math-equation-vi.md"
+
 ## Danh sách các bài tập LeetCode
 
 ### 1xxx
