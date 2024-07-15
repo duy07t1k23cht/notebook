@@ -2,52 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://duynm98.github.io/notebook/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98.github.io/notebook/blog/apache-hadoop-overview/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <loc>https://duynm98.github.io/notebook/blog/hadoop-overview/</loc>
+         <lastmod>2024-07-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://duynm98.github.io/notebook/blog/load-balancing-algorithms/</loc>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/courses/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/courses/mastering-system-design-interview/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/courses/mastering-system-design-interview/mock-system-design-interview-1/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/leetcode/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/leetcode/1175/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/category/system-design/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/tags/</loc>
-         <lastmod>2024-07-14</lastmod>
+         <lastmod>2024-07-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
