@@ -3,6 +3,7 @@ date: 2024-01-01
 authors:
     - me
 categories:
+    - ":flag_vn:"
     - System Design
 tags:
     - Hadoop
@@ -11,11 +12,12 @@ slug: apache-hadoop-overview
 
 # **Giới thiệu về Apache Hadoop**
 
-Apache Hadoop là một framework dùng để lưu trữ và xử lý dữ liệu lớn. Hadoop sử dụng một cluster gồm nhiều nodes để xử lý dữ liệu song song thay vì chỉ sử dụng một máy duy nhất, cải thiện tốc độ khi xử lý dữ liệu lớn.[^1]
-
-Bài viết này giới thiệu tổng quan về Apache Hadoop, bao gồm kiến trúc, cách thức hoạt động của nó.
+Bài viết này giới thiệu cái nhìn tổng quan nhất về Apache Hadoop, bao gồm kiến trúc, cách thức hoạt động của nó.
 
 <!-- more -->
+
+Apache Hadoop là một framework dùng để lưu trữ và xử lý dữ liệu lớn. Hadoop sử dụng một cluster gồm nhiều nodes để xử lý dữ liệu song song thay vì chỉ sử dụng một máy duy nhất, cải thiện tốc độ khi xử lý dữ liệu lớn.[^1]
+
 
 ## Tổng quan về Hadoop
 

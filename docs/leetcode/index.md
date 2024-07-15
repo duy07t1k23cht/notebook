@@ -14,6 +14,14 @@ Chủ yếu là để tái sử dụng nếu cần. Các bài toán hầu hết 
 
 ## Danh sách các bài tập LeetCode
 
-### 1xxx
+### 0 - 999
 
-[1175. Prime Arrangements](1175.md)
+- [# 714. Best Time to Buy and Sell Stock with Transaction Fee](714.md)
+
+### 1000 - 1999
+
+- [1175. Prime Arrangements](1175.md)
+
+### 2000 - 2999
+
+- [2485. Find the Pivot Integer](2485.md)

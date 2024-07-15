@@ -3,6 +3,7 @@ date: 2024-01-02
 authors:
     - me
 categories:
+    - ":flag_gb:"
     - System Design
 tags:
     - Load Balancing
@@ -11,13 +12,13 @@ tags:
 
 # **Load Balancing Algorithms**
 
-A load balancer is a device that distributes network traffic across multiple servers. A load balancing algorithm is the logic a load balancer uses to distribute network traffic among these servers.
-
 In this post, we'll provide a comprehensive overview of load balancing algorithms, discussing how they work and their pros and cons.
 
 <!-- more -->
 
-There are two main categories of algorithms: *static* and *dynamic*. Let's explore each category and dive deeper into the major specific algorithms.
+A load balancer is a device that distributes network traffic across multiple servers. A load balancing algorithm is the logic a load balancer uses to distribute network traffic among these servers.[^1]
+
+There are two main categories of algorithms: *static* and *dynamic*. Let's explore each category and dive deeper into the major specific algorithms.[^2]
 
 ## Static Algorithms
 
@@ -111,3 +112,5 @@ Dynamic load balancing algorithms adapt in real-time by taking active performanc
 
 There are clear tradeoffs between simple static algorithms and more adaptive dynamic ones. Static algorithms like round robin work well for stateless applications. Dynamic algorithms help optimize response times and availability for large, complex applications.
 
+[^1]: [Cloudflare, _Types of load balancing algorithms_](https://www.cloudflare.com/learning/performance/types-of-load-balancing-algorithms/)
+[^2]: [ByteByteGo, _Top 6 Load Balancing Algorithms Every Developer Should Know_](https://youtu.be/dBmxNsS3BGE)
