@@ -16,7 +16,7 @@ Chủ yếu là để tái sử dụng nếu cần. Các bài toán hầu hết 
 
 ### 0 - 999
 
-- [# 714. Best Time to Buy and Sell Stock with Transaction Fee](714.md)
+- [714. Best Time to Buy and Sell Stock with Transaction Fee](714.md)
 
 ### 1000 - 1999
 
