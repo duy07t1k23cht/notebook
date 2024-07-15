@@ -47,7 +47,7 @@ Static load balancing algorithms distribute requests to servers without taking i
     - Improves performance by keeping related data on the same server.
 
 !!! failure "Cons"
-    Uneven loads can easily occur since newly arriving users are assigned randomly.
+    - Uneven loads can easily occur since newly arriving users are assigned randomly.
 
 ### Weighted Round Robin
 
