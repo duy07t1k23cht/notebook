@@ -132,7 +132,7 @@ plugins:
     - search
     - blog:
           archive: false
-          post_url_format: "{slug}"
+          post_url_format: "{file}"
     - tags:
           tags_file: tags.md
     - rss:
