@@ -16,13 +16,18 @@ Chủ yếu là để tái sử dụng nếu cần. Các bài toán hầu hết 
 
 ### 0 - 999
 
-- [239. Sliding Window Maximum](239.md)
-- [714. Best Time to Buy and Sell Stock with Transaction Fee](714.md)
+- [239. Sliding Window Maximum](239.md) <span style="background-color: #f8615c; color: black; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Hard</span>
+- [714. Best Time to Buy and Sell Stock with Transaction Fee](714.md) <span style="background-color: #fac31d; color: black; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Medium</span>
 
 ### 1000 - 1999
 
-- [1175. Prime Arrangements](1175.md)
+- [1175. Prime Arrangements](1175.md) <span style="background-color: #46c6c2; color: black; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Easy</span>
 
 ### 2000 - 2999
 
-- [2485. Find the Pivot Integer](2485.md)
+- [2453. Destroy Sequential Targets](2453.md) <span style="background-color: #fac31d; color: black; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Medium</span>
+- [2485. Find the Pivot Integer](2485.md) <span style="background-color: #46c6c2; color: black; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Easy</span>
+
+### 3000 - 3999
+
+- [3227. Vowels Game in a String](3227.md) <span style="background-color: #fac31d; color: black; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Medium</span>
