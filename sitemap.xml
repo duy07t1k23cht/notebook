@@ -2,87 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://duynm98.github.io/notebook/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/cap-theorem/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/hadoop-overview/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/load-balancing-algorithms/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/course/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/course/ml-algorithms/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/course/ml-algorithms/decision-tree/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/leetcode/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/leetcode/1175/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/leetcode/239/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://duynm98.github.io/notebook/leetcode/2453/</loc>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/leetcode/2485/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://duynm98.github.io/notebook/leetcode/3227/</loc>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/leetcode/714/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/category/flag_gb/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/category/system-design/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/category/flag_vn/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/tags/</loc>
-         <lastmod>2024-07-19</lastmod>
+         <lastmod>2024-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
