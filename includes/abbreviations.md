@@ -9,3 +9,5 @@
 *[network partition]: A network partition is a division of a computer network into relatively independent subnets, either by design or due to the failure of network devices.
 
 *[distributed systems]: A distributed system is a collection of computers, also known as nodes, that collaborate to perform a specific task or provide a service.
+
+*[rate limiter]: In a network system, a rate limiter is used to control the rate of traffic sent by a client or a service. In HTTP world, a rate limiter limits the number of client requests allowed to be sent over a specified period.

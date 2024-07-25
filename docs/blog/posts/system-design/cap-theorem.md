@@ -4,7 +4,7 @@ authors:
     - me
 categories:
     - ":flag_gb:"
-    - System Design
+    - ":computer: System Design"
 tags:
     - CAP theorem
 ---

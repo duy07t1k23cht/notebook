@@ -15,6 +15,10 @@ nav:
           - leetcode/index.md
     - Courses:
           - course/index.md
+          # - Mock System Design Interview:
+            # - course/system-design-interview/index.md
+            # - Design a URL Shortening Service: course/system-design-interview/url-shortening-service.md
+            # - Design a Restaurant Reservation System: course/system-design-interview/restaurant-reservation-system.md
           # - Machine Learning Algorithms: course/ml-algorithms/index.md
     - Blog:
           - blog/index.md

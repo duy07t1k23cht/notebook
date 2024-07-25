@@ -4,7 +4,7 @@ authors:
     - me
 categories:
     - ":flag_vn:"
-    - System Design
+    - ":computer: System Design"
 tags:
     - Hadoop
 slug: apache-hadoop-overview
