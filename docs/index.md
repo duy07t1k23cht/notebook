@@ -12,10 +12,6 @@ Ngoài ra những thứ linh tinh như cảm nhận cá nhân sau khi xem một 
 
     Ngoài trang blog này thì mình còn mới tập chơi tiktok với một kênh về thuật toán. Anh em cho xin một follow ủng hộ lấy tinh thần nhé :fontawesome-solid-face-laugh-beam:
 
-    <div class="grid cards" markdown>
-
-    - :fontawesome-brands-tiktok:{ .lg } <a href="https://www.tiktok.com/@chikodevn" style="font-size: 1.25em; font-weight: bold; margin-left: 10px;">chikodevn</a>
-
-    </div>
+    [:fontawesome-brands-tiktok: chikodevn](https://www.tiktok.com/@chikodevn){ .md-button }
 
 Bây giờ anh em có thể bấm vào [đây](blog/index.md) để bắt đầu đọc các bài viết của mình nhé. Cảm ơn anh em nhiều :smiling_face_with_3_hearts:

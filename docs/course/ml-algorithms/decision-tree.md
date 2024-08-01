@@ -216,10 +216,13 @@ Một số cách để pruning như sau:
 
 2. Sử dụng toàn bộ tập train để xây dựng decision tree. Giả sử decision tree cuối cùng có $K$ node lá, tập hợp các điểm dữ liệu ở mỗi node lá lần lượt là $\mathcal{S}_1, \dots,
 \mathcal{S}_K$, ta định nghĩa hàm loss sau:
-   $$
-    \tag{4}
-    \mathcal{L} = \sum_{k = 1}^K \frac{|\mathcal{S}_k|}{|\mathcal{S}|} H(\mathcal{S}_k) + \lambda K, \quad \lambda \in \mathbb{R}^+
-    $$ Đây chính là kỹ thuật regularization. Giá trị của hàm số này nhỏ nếu cả data loss (số hạng thứ nhất) nhỏ (entropy tại mỗi node là thấp) và regularization (số hạng thứ hai) cũng nhỏ (số node lá ít). Trước hết, xây dựng một decision tree mà mọi điểm trong tập train đều được phân loại đúng (toàn bộ các entopy của các node bằng 0). Lúc này data loss bằng $0$ nhưng regularization có thể lớn, khiến cho $\mathcal{L}$ lớn. Sau đó, ta tỉa dần các node lá sao cho $\mathcal{L}$ giảm. Việc cắt tỉa được lặp lại đến khi $\mathcal{L}$ không thể giảm được nữa.
+
+    $$
+        \tag{4}
+        \mathcal{L} = \sum_{k = 1}^K \frac{|\mathcal{S}_k|}{|\mathcal{S}|} H(\mathcal{S}_k) + \lambda K, \quad \lambda \in \mathbb{R}^+
+    $$
+
+    Đây chính là kỹ thuật regularization. Giá trị của hàm số này nhỏ nếu cả data loss (số hạng thứ nhất) nhỏ (entropy tại mỗi node là thấp) và regularization (số hạng thứ hai) cũng nhỏ (số node lá ít). Trước hết, xây dựng một decision tree mà mọi điểm trong tập train đều được phân loại đúng (toàn bộ các entopy của các node bằng 0). Lúc này data loss bằng $0$ nhưng regularization có thể lớn, khiến cho $\mathcal{L}$ lớn. Sau đó, ta tỉa dần các node lá sao cho $\mathcal{L}$ giảm. Việc cắt tỉa được lặp lại đến khi $\mathcal{L}$ không thể giảm được nữa.
 
 
 ## Code
@@ -228,14 +231,14 @@ Download dữ liệu `weather.csv` tại [đây]().
 
 Đầu tiên ta import các thư viện cần thiết:
 
-```py linenums="1"
+```py
 import pandas as pd
 import numpy as np
 ```
 
 Load dữ liệu:
 
-```py linenums="1"
+```py
 df = pd.read_csv("weather.csv")
 print(df)
 ```
@@ -265,7 +268,7 @@ Viết hàm tính _entropy_ của một bảng dữ liệu: (1)
     H(\mathcal{S}) = - \sum\_{c \in \mathbf{C}} \dfrac{N_c}{N} \log_2 \left( \dfrac{N_c}{N} \right)
     $$
 
-```py linenums="1"
+```py
 def entropy(data: pd.DataFrame):
     y = data.iloc[:, -1]  # Retrieve the labels
     value_counts = y.value_counts()  # Calculate all N_c
@@ -281,7 +284,7 @@ Viết hàm tính _weighted entropy_ của một bảng dữ liệu và một th
     H(x, \mathcal{S}) = \sum\_{k \in K} \frac{m_k}{N} H(\mathcal{S}\_k)
     $$
 
-```py linenums="1"
+```py
 def weighted_entropy(data: pd.DataFrame, prop: str):
     N = len(data)
     weighted_entropy = 0
@@ -297,7 +300,7 @@ def weighted_entropy(data: pd.DataFrame, prop: str):
 
 Ta có thể thử chạy hàm `weighted_entropy` trên bảng dữ liệu ban đầu xem kết quả đã đúng chưa:
 
-```py linenums="1"
+```py
 for col in ["outlook", "temperature", "humidity", "wind"]:
     print(col, weighted_entropy(df, col))
 ```
@@ -310,7 +313,7 @@ wind 0.8921589282623617
 Ta thấy nó khớp với kết quả ta đã tính phía trên. Như vậy có vẻ hàm `entropy` và `weighted_entropy` đã ổn.
 
 Giờ ta sẽ triển khai decision tree. Đầu tiên, ta viết class `TreeNode` như sau:
-```py linenums="1"
+```py
 class TreeNode:
     def __init__(self, row_indices: List[int]) -> None:
         self.row_indices = row_indices  # Indices of data points of the node 
@@ -325,7 +328,7 @@ class TreeNode:
         return str(self.row_indices)
 ```
 Và class `DecisionTree`:
-```py linenums="1"
+```py
 class DecisionTree:
     def __init__(self) -> None:
         self.root = None  # to store the root TreeNode
@@ -333,7 +336,7 @@ class DecisionTree:
 ```
 
 Với hàm training cho Decision Tree, ta sử dụng thuật toán BFS để duyệt cây (code hơi dài nhưng có coment đầy đủ)
-```py linenums="1"
+```py
     def fit(self, data):
         # Initialize the root node with all row indices from the dataset
         self.root = TreeNode(list(range(len(data))))
@@ -377,7 +380,7 @@ Với hàm training cho Decision Tree, ta sử dụng thuật toán BFS để du
                 queue.append(child_node)  # Add the child node to the queue for further processing
 ```
 Cuối cùng là hàm predict. Với một bảng dữ liệu mới, ta sẽ duyệt từng hàng của bảng dữ liệu, đưa vào decision tree vừa xây dựng để predict cho từng hàng.
-```py linenums="1"
+```py
     def predict(self, new_data):
         npoints = new_data.count()[0]  # Retrieve the number of data points in new_data
         labels = [None] * npoints  # Initialize the list to store prediction results
@@ -401,7 +404,7 @@ Cuối cùng là hàm predict. Với một bảng dữ liệu mới, ta sẽ duy
         return labels
 ```
 Như vậy là ta đã code xong decision tree. Giờ ta sẽ chạy thử trên chính tập dữ liệu đã cho để xem tất cả các điểm dữ liệu đã được phân loại đúng hay chưa.
-```py linenums="1"
+```py
 if __name__ == "__main__":
     df = pd.read_csv("weather.csv")
     X = df.iloc[:, 1:]
@@ -462,7 +465,7 @@ flowchart TD
 
 ??? code "Code hoàn chỉnh `decision_tree.py`"
 
-    ```py linenums="1" title="decision_tree.py"
+    ```py title="decision_tree.py"
     from typing import List
     import pandas as pd
     import numpy as np

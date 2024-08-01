@@ -11,3 +11,5 @@
 *[distributed systems]: A distributed system is a collection of computers, also known as nodes, that collaborate to perform a specific task or provide a service.
 
 *[rate limiter]: In a network system, a rate limiter is used to control the rate of traffic sent by a client or a service. In HTTP world, a rate limiter limits the number of client requests allowed to be sent over a specified period.
+
+*[Consistent Hashing]: In computer science, consistent hashing is a special kind of hashing technique such that when a hash table is resized, only n/m keys need to be remapped on average where n is the number of keys and m is the number of slots.
