@@ -12,31 +12,31 @@
         <meta name="author" content="myAwesomeCompany Inc">
       
       
-        <link rel="canonical" href="https://duynm98.github.io/notebook/blog/load-balancing-algorithms/">
+        <link rel="canonical" href="https://duynm98.github.io/notebook/course/python-concurrency/S01L03-Extending-the-Thread-class/">
       
       
-        <link rel="prev" href="../hadoop-overview/">
+        <link rel="prev" href="../S01L02-Threading/">
       
       
-        <link rel="next" href="../cap-theorem/">
+        <link rel="next" href="../S01L04-Returning-values-from-a-Thread/">
       
       
-        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../feed_rss_updated.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
     
     
       
-        <title>Load Balancing Algorithms - Duy's Notebook</title>
+        <title>Lecture 3. Extending the Thread class - Duy's Notebook</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -61,18 +61,18 @@
       
     
     
-      <link rel="stylesheet" href="../../css/extra_css">
+      <link rel="stylesheet" href="../../../css/extra_css">
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -81,7 +81,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -100,7 +100,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#load-balancing-algorithms" class="md-skip">
+        <a href="#how-to-extend-python-thread-class" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Duy&#39;s Notebook" class="md-header__button md-logo" aria-label="Duy's Notebook" data-md-component="logo">
+    <a href="../../.." title="Duy&#39;s Notebook" class="md-header__button md-logo" aria-label="Duy's Notebook" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -134,7 +134,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Load Balancing Algorithms
+              Lecture 3. Extending the Thread class
             
           </span>
         </div>
@@ -243,7 +243,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
     
@@ -262,32 +262,12 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../leetcode/" class="md-tabs__link">
+        <a href="../../../leetcode/" class="md-tabs__link">
           
   
     
   
   LeetCode series
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../course/" class="md-tabs__link">
-          
-  
-    
-  
-  Courses
 
         </a>
       </li>
@@ -304,7 +284,27 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+        <a href="../../" class="md-tabs__link">
+          
+  
+    
+  
+  Courses
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../blog/" class="md-tabs__link">
           
   
     
@@ -328,9 +328,7 @@
           
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -341,7 +339,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Duy&#39;s Notebook" class="md-nav__button md-logo" aria-label="Duy's Notebook" data-md-component="logo">
+    <a href="../../.." title="Duy&#39;s Notebook" class="md-nav__button md-logo" aria-label="Duy's Notebook" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -371,7 +369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -412,7 +410,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../leetcode/" class="md-nav__link ">
+            <a href="../../../leetcode/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -444,6 +442,8 @@
       
   
   
+    
+  
   
   
     
@@ -458,19 +458,22 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../course/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -481,13 +484,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Courses
@@ -500,6 +503,8 @@
                 
   
   
+    
+  
   
   
     
@@ -517,16 +522,16 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../course/python-concurrency/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -543,7 +548,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             Python Concurrency
@@ -556,8 +561,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -581,11 +588,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
@@ -599,7 +606,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2_2">
             <span class="md-nav__icon md-icon"></span>
             Section1. Multithreading
@@ -613,7 +620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../course/python-concurrency/S01L01-Understanding-Processes-and-Threads/" class="md-nav__link">
+      <a href="../S01L01-Understanding-Processes-and-Threads/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -634,7 +641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../course/python-concurrency/S01L02-Threading/" class="md-nav__link">
+      <a href="../S01L02-Threading/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -652,10 +659,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../course/python-concurrency/S01L03-Extending-the-Thread-class/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Lecture 3. Extending the Thread class
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -664,6 +691,35 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-python-thread-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to Python Thread Class
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -676,7 +732,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../course/python-concurrency/S01L04-Returning-values-from-a-Thread/" class="md-nav__link">
+      <a href="../S01L04-Returning-values-from-a-Thread/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -697,7 +753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../course/python-concurrency/S01L05-Multithreading-Example/" class="md-nav__link">
+      <a href="../S01L05-Multithreading-Example/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -718,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../course/python-concurrency/S01L06-Daemon-threads/" class="md-nav__link">
+      <a href="../S01L06-Daemon-threads/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -739,7 +795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../course/python-concurrency/S01L07-Thread-Pools/" class="md-nav__link">
+      <a href="../S01L07-Thread-Pools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -780,8 +836,6 @@
       
   
   
-    
-  
   
   
     
@@ -796,22 +850,19 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../../blog/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -822,13 +873,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Blog
@@ -892,7 +943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../category/computer-system-design/" class="md-nav__link">
+      <a href="../../../blog/category/computer-system-design/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -915,7 +966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../category/flag_gb/" class="md-nav__link">
+      <a href="../../../blog/category/flag_gb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -938,7 +989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../category/flag_vn/" class="md-nav__link">
+      <a href="../../../blog/category/flag_vn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -975,8 +1026,6 @@
             
             
               
-                
-              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -996,110 +1045,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#static-algorithms" class="md-nav__link">
+  <a href="#introduction-to-python-thread-class" class="md-nav__link">
     <span class="md-ellipsis">
-      Static Algorithms
+      Introduction to Python Thread Class
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Static Algorithms">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#round-robin" class="md-nav__link">
-    <span class="md-ellipsis">
-      Round Robin
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sticky-round-robin" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sticky Round Robin
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#weighted-round-robin" class="md-nav__link">
-    <span class="md-ellipsis">
-      Weighted Round Robin
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hash-based-algorithms" class="md-nav__link">
-    <span class="md-ellipsis">
-      Hash-Based Algorithms
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dynamic-algorithms" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dynamic Algorithms
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Dynamic Algorithms">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#least-connections" class="md-nav__link">
-    <span class="md-ellipsis">
-      Least Connections
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#least-response-time" class="md-nav__link">
-    <span class="md-ellipsis">
-      Least Response Time
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Summary
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Summary">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#static-algorithms_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Static Algorithms
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1112,267 +1062,76 @@
             
           
           
-  <div class="md-content md-content--post" data-md-component="content">
-    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
-      <div class="md-sidebar__scrollwrap">
-        <div class="md-sidebar__inner md-post">
-          <nav class="md-nav md-nav--primary">
-            <div class="md-post__back">
-              <div class="md-nav__title md-nav__container">
-                <a href="../" class="md-nav__link">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-                  <span class="md-ellipsis">
-                    Back to index
-                  </span>
-                </a>
-              </div>
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="how-to-extend-python-thread-class">How to Extend Python Thread Class</h1>
+<h2 id="introduction-to-python-thread-class">Introduction to Python Thread Class</h2>
+<p>One way to execute code in a new thread is to extend the <code>Thread</code> class from the <code>threading</code> module and override the <code>run()</code> method in the subclass to customize the behavior of the new thread when it is created.</p>
+<p>Let's take an example of extending the <code>Thread</code> class. We'll develop a class that performs an HTTP request to a URL and display the response code:</p>
+<p><div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span> <span class="nn">threading</span> <span class="kn">import</span> <span class="n">Thread</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span> <span class="nn">urllib.request</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="k">class</span> <span class="nc">HttpRequestThread</span><span class="p">(</span><span class="n">Thread</span><span class="p">):</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">url</span> <span class="o">=</span> <span class="n">url</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Checking </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="si">}</span><span class="s1"> ...&#39;</span><span class="p">)</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>        <span class="k">try</span><span class="p">:</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>            <span class="n">response</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>            <span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">code</span><span class="p">)</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>        <span class="k">except</span> <span class="n">urllib</span><span class="o">.</span><span class="n">error</span><span class="o">.</span><span class="n">HTTPError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>            <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">code</span><span class="p">)</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>        <span class="k">except</span> <span class="n">urllib</span><span class="o">.</span><span class="n">error</span><span class="o">.</span><span class="n">URLError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>            <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">reason</span><span class="p">)</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="k">def</span> <span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>    <span class="n">urls</span> <span class="o">=</span> <span class="p">[</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>        <span class="s1">&#39;https://httpstat.us/200&#39;</span><span class="p">,</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>        <span class="s1">&#39;https://httpstat.us/400&#39;</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>    <span class="p">]</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>    <span class="n">threads</span> <span class="o">=</span> <span class="p">[</span><span class="n">HttpRequestThread</span><span class="p">(</span><span class="n">url</span><span class="p">)</span> <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="n">urls</span><span class="p">]</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>    <span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">start</span><span class="p">()</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">threads</span><span class="p">]</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>    <span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">join</span><span class="p">()</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">threads</span><span class="p">]</span>
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>    <span class="n">main</span><span class="p">()</span>
+</span></code></pre></div>
+<div class="language-text highlight"><span class="filename">Output</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Checking https://httpstat.us/200 ...
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Checking https://httpstat.us/400 ...
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>200
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>400
+</span></code></pre></div></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
             </div>
-            
-              <div class="md-post__authors md-typeset">
-                
-                  <div class="md-profile md-post__profile">
-                    <span class="md-author md-author--long">
-                      <img src="https://tryhardguides.com/wp-content/uploads/2023/05/spider-verse-portal-icon.png" alt="Duy M. Nguyen">
-                    </span>
-                    <span class="md-profile__description">
-                      <strong>
-                        
-                          Duy M. Nguyen
-                        
-                      </strong>
-                      <br>
-                      The blog owner
-                    </span>
-                  </div>
-                
-              </div>
-            
-            <ul class="md-post__meta md-nav__list">
-              <li class="md-nav__item md-nav__item--section">
-                <div class="md-post__title">
-                  <span class="md-ellipsis">
-                    Metadata
-                  </span>
-                </div>
-                <nav class="md-nav">
-                  <ul class="md-nav__list">
-                    <li class="md-nav__item">
-                      <div class="md-nav__link">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
-                        <time datetime="2024-01-02 00:00:00" class="md-ellipsis">January 2, 2024</time>
-                      </div>
-                    </li>
-                    
-                    
-                      <li class="md-nav__item">
-                        <div class="md-nav__link">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3H9m3 2 4 13 3-1-4-13-3 1M5 5v13h3V5H5M3 19v2h18v-2H3Z"/></svg>
-                          <span class="md-ellipsis">
-                            in
-                            
-                              <a href="../category/flag_gb/">🇬🇧</a>, 
-                              <a href="../category/computer-system-design/">💻 System Design</a></span>
-                        </div>
-                      </li>
-                    
-                    
-                      
-                      <li class="md-nav__item">
-                        <div class="md-nav__link">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
-                          <span class="md-ellipsis">
-                            
-                              3 min read
-                            
-                          </span>
-                        </div>
-                      </li>
-                    
-                  </ul>
-                </nav>
-              </li>
-            </ul>
-          </nav>
           
-        </div>
-      </div>
-    </div>
-    <article class="md-content__inner md-typeset">
-      
-        
-  
-  
-
-<nav class="md-tags" >
-  
-    
-    
-    
-      <a href="../../tags/#load-balancing" class="md-tag">Load Balancing</a>
-    
-  
-</nav>
-
-
-  
-  
-
-
-<h1 id="load-balancing-algorithms"><strong>Load Balancing Algorithms</strong></h1>
-<p>In this post, we'll provide a comprehensive overview of load balancing algorithms, discussing how they work and their pros and cons.</p>
-<!-- more -->
-
-<p>A load balancer is a device that distributes network traffic across multiple servers. A load balancing algorithm is the logic a load balancer uses to distribute network traffic among these servers.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<p>There are two main categories of algorithms: <em>static</em> and <em>dynamic</em>. Let's explore each category and dive deeper into the major specific algorithms.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
-<h2 id="static-algorithms">Static Algorithms</h2>
-<p>Static load balancing algorithms distribute requests to servers without taking into account the servers' real-time conditions and performance metrics.</p>
-<h3 id="round-robin">Round Robin</h3>
-<p><a class="glightbox" href="../../images/round-robin.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="alt text" src="../../images/round-robin.png" /></a></p>
-<div class="admonition quote">
-<p class="admonition-title">Description</p>
-<p>Distributes requests evenly among servers in sequence.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Pros</p>
-<ul>
-<li>Easy to implement and understand.</li>
-</ul>
-</div>
-<div class="admonition failure">
-<p class="admonition-title">Cons</p>
-<ul>
-<li>Can potentially overload servers if they are not properly monitored.</li>
-</ul>
-</div>
-<h3 id="sticky-round-robin">Sticky Round Robin</h3>
-<p><a class="glightbox" href="../../images/sticky-round-robin.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="alt text" src="../../images/sticky-round-robin.png" /></a></p>
-<div class="admonition quote">
-<p class="admonition-title">Description</p>
-<p>An extension of round robin that tries to route subsequent requests from the same user to the same server.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Pros</p>
-<ul>
-<li>Improves performance by keeping related data on the same server.</li>
-</ul>
-</div>
-<div class="admonition failure">
-<p class="admonition-title">Cons</p>
-<ul>
-<li>Uneven loads can easily occur since newly arriving users are assigned randomly.</li>
-</ul>
-</div>
-<h3 id="weighted-round-robin">Weighted Round Robin</h3>
-<p><a class="glightbox" href="../../images/weighted-round-robin.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="alt text" src="../../images/weighted-round-robin.png" /></a></p>
-<div class="admonition quote">
-<p class="admonition-title">Description</p>
-<p>Allows admins to assign different weights or priorities to different servers. Servers with higher weights receive higher number of requests.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Pros</p>
-<ul>
-<li>Accounts for heterogeneous server capabilities.</li>
-</ul>
-</div>
-<div class="admonition failure">
-<p class="admonition-title">Cons</p>
-<ul>
-<li>Weights must be manually configured, which is less adaptive to real-time changes.</li>
-</ul>
-</div>
-<h3 id="hash-based-algorithms">Hash-Based Algorithms</h3>
-<p><a class="glightbox" href="../../images/hash-based.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="alt text" src="../../images/hash-based.png" /></a></p>
-<div class="admonition quote">
-<p class="admonition-title">Description</p>
-<p>Uses a hash function to map incoming requests to the backend servers. The hash function often uses the client's IP address or the requested URL as input for determining where to route each request.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Pros</p>
-<ul>
-<li>Can evenly distribute requests if the function is chosen wisely.</li>
-</ul>
-</div>
-<div class="admonition failure">
-<p class="admonition-title">Cons</p>
-<ul>
-<li>Selecting an optimal hash function can be challenging.</li>
-</ul>
-</div>
-<h2 id="dynamic-algorithms">Dynamic Algorithms</h2>
-<p>Dynamic load balancing algorithms adapt in real-time by taking active performance metrics and server conditions into account when distributing requests.</p>
-<h3 id="least-connections">Least Connections</h3>
-<p><a class="glightbox" href="../../images/least-connections.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="alt text" src="../../images/least-connections.png" /></a></p>
-<div class="admonition quote">
-<p class="admonition-title">Description</p>
-<p>Sends each new request to the server currently with the least number of active connections or open requests.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Pros</p>
-<ul>
-<li>New requests are adaptively routed to where there is the most remaining capacity.</li>
-</ul>
-</div>
-<div class="admonition failure">
-<p class="admonition-title">Cons</p>
-<ul>
-<li>Requires actively tracking the number of ongoing connections on each backend server.</li>
-<li>Load can unintentionally concentrate on certain servers if connections pile up unevenly.</li>
-</ul>
-</div>
-<h3 id="least-response-time">Least Response Time</h3>
-<p><a class="glightbox" href="../../images/least-time.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="alt text" src="../../images/least-time.png" /></a></p>
-<div class="admonition quote">
-<p class="admonition-title">Description</p>
-<p>Sends incoming requests to the server with the lowest current latency or fastest response time. Latency for each server is continuously measured and factored in.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Pros</p>
-<ul>
-<li>Highly adaptive and reactive.</li>
-</ul>
-</div>
-<div class="admonition failure">
-<p class="admonition-title">Cons</p>
-<ul>
-<li>Requires constant monitoring, which incurs significant overhead and introduces complexity.</li>
-<li>Does not consider how many existing requests each server already has.</li>
-</ul>
-</div>
-<h2 id="summary">Summary</h2>
-<h3 id="static-algorithms_1">Static Algorithms</h3>
-<p>There are clear tradeoffs between simple static algorithms and more adaptive dynamic ones. Static algorithms like round robin work well for stateless applications. Dynamic algorithms help optimize response times and availability for large, complex applications.<sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p><a href="https://www.cloudflare.com/learning/performance/types-of-load-balancing-algorithms/">Cloudflare, <em>Types of load balancing algorithms</em></a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="https://youtu.be/dBmxNsS3BGE">ByteByteGo, <em>Top 6 Load Balancing Algorithms Every Developer Should Know</em></a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-  
-
-
-
-      
-    </article>
-  </div>
-
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -1459,12 +1218,12 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs", "navigation.instant.progress", "navigation.path", "navigation.indexes", "navigation.top", "header.autohide", "toc.follow", "content.code.copy", "content.code.select", "content.code.annotate", "content.footnote.tooltips", "content.tooltips", "search.suggest"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs", "navigation.instant.progress", "navigation.path", "navigation.indexes", "navigation.top", "header.autohide", "toc.follow", "content.code.copy", "content.code.select", "content.code.annotate", "content.footnote.tooltips", "content.tooltips", "search.suggest"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
-        <script src="../../javascripts/mathjax.js"></script>
+        <script src="../../../javascripts/mathjax.js"></script>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
