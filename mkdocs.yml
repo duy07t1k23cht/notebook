@@ -15,6 +15,16 @@ nav:
           - leetcode/index.md
     - Courses:
           - course/index.md
+          - Python Concurrency:
+              - course/python-concurrency/index.md
+              - Section1. Multithreading:
+                - Lecture 1. Understanding Processes and Threads: course/python-concurrency/S01L01-Understanding-Processes-and-Threads.md
+                - Lecture 2. Threading: course/python-concurrency/S01L02-Threading.md
+                - Lecture 3. Extending the Thread class: course/python-concurrency/S01L03-Extending-the-Thread-class.md
+                - Lecture 4. Returning values from a Thread: course/python-concurrency/S01L04-Returning-values-from-a-Thread.md
+                - Lecture 5. Multithreading Example: course/python-concurrency/S01L05-Multithreading-Example.md
+                - Lecture 6. Daemon threads: course/python-concurrency/S01L06-Daemon-threads.md
+                - Lecture 7. Thread Pools: course/python-concurrency/S01L07-Thread-Pools.md
           # - Mock System Design Interview:
             # - course/system-design-interview/index.md
             # - Design a URL Shortening Service: course/system-design-interview/url-shortening-service.md
@@ -70,7 +80,7 @@ theme:
         # - navigation.tabs.sticky # Tabs always visible
         # - navigation.expand
         - navigation.instant.progress
-        - navigation.sections
+        # - navigation.sections
         - navigation.path
         - navigation.indexes
         # - navigation.footer

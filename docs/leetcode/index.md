@@ -8,7 +8,7 @@ Tên các biến xuất hiện trong đề bài nếu cần cũng sẽ đổi lu
 
 Giới hạn ràng buộc của bài toán có thể cũng thay luôn, vì nhiều khi :simple-leetcode: LeetCode để ràng buộc quá lỏng.
 
-Chủ yếu là để tái sử dụng nếu cần. Các bài toán hầu hết sẽ được code bằng :simple-cplusplus:
+Chủ yếu là để tái sử dụng nếu cần. Các bài toán hầu hết sẽ được code bằng :simple-cplusplus:{ .middle }
 
 --8<-- "utils/warn-math-equation-vi.md"
 

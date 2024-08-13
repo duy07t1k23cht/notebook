@@ -13,3 +13,9 @@
 *[rate limiter]: In a network system, a rate limiter is used to control the rate of traffic sent by a client or a service. In HTTP world, a rate limiter limits the number of client requests allowed to be sent over a specified period.
 
 *[Consistent Hashing]: In computer science, consistent hashing is a special kind of hashing technique such that when a hash table is resized, only n/m keys need to be remapped on average where n is the number of keys and m is the number of slots.
+
+*[I/O-bound tasks]: the time spent on I/O is significantly more than the time spent on computation.
+
+*[CPU-bound tasks]: the time spent on computation is significantly higher than the time waiting for I/O.
+
+*[daemon thread]: A daemon thread is a background thread. In other words, daemon threads execute tasks in the background.

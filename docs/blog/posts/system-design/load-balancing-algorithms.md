@@ -110,6 +110,8 @@ Dynamic load balancing algorithms adapt in real-time by taking active performanc
 
 ## Summary
 
+### Static Algorithms
+
 There are clear tradeoffs between simple static algorithms and more adaptive dynamic ones. Static algorithms like round robin work well for stateless applications. Dynamic algorithms help optimize response times and availability for large, complex applications.[^2]
 
 [^1]: [Cloudflare, _Types of load balancing algorithms_](https://www.cloudflare.com/learning/performance/types-of-load-balancing-algorithms/)
