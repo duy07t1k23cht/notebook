@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://duynm98.github.io/notebook/blog/deadpool-and-wolverine/</loc>
+         <lastmod>2024-08-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://duynm98.github.io/notebook/blog/algorithms-for-rate-limiting/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
@@ -116,6 +121,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://duynm98.github.io/notebook/course/python-oop/</loc>
+         <lastmod>2024-08-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://duynm98.github.io/notebook/course/system-design-interview/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
@@ -166,17 +176,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://duynm98.github.io/notebook/blog/category/flag_gb/</loc>
+         <loc>https://duynm98.github.io/notebook/blog/category/vietnamese-flag_vn/</loc>
+         <lastmod>2024-08-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://duynm98.github.io/notebook/blog/category/movie_camera-gi%E1%BA%A3i-tr%C3%AD/</loc>
+         <lastmod>2024-08-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://duynm98.github.io/notebook/blog/category/english-flag_gb/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://duynm98.github.io/notebook/blog/category/computer-system-design/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://duynm98.github.io/notebook/blog/category/flag_vn/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
