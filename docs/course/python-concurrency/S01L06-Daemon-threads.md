@@ -106,3 +106,9 @@ The following table illustrates the difference between daemon and non-daemon thr
 | Thread creation                          | `t = Thread(target=f, daemon=True)` | `t = Thread(target=f)` |
 | The program needs to wait before exiting | :no_entry: No                       | :white_check_mark: Yes |
 | Kind of tasks                            | Not critical like logging           | Critical               |
+
+!!! abstract "Summary"
+    - A daemon thread is a background thread.
+    - A daemon thread is useful for executing tasks that are not critical.
+    - The program can exit and doesn't need to wait for the daemon threads to be completed.
+    - A daemon thread is automatically killed when the program exits.

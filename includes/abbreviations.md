@@ -19,3 +19,5 @@
 *[CPU-bound tasks]: the time spent on computation is significantly higher than the time waiting for I/O.
 
 *[daemon thread]: A daemon thread is a background thread. In other words, daemon threads execute tasks in the background.
+
+*[ad-hoc]: Ad hoc is a Latin phrase meaning literally 'for this'. In English, it typically signifies a solution designed for a specific purpose, problem, or task rather than a generalized solution adaptable to collateral instances.

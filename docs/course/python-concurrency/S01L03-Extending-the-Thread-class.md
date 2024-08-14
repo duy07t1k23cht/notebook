@@ -49,3 +49,6 @@ Checking https://httpstat.us/400 ...
 200
 400
 ```
+
+!!! abstract "Summary"
+    - Extend the `Thread` class to run code in a new thread by calling the `__init__()` method of the superclass in the subclass and override the `run` method to add the code to run in a new thread.

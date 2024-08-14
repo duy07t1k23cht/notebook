@@ -25,6 +25,7 @@ nav:
                 - Lecture 5. Multithreading Example: course/python-concurrency/S01L05-Multithreading-Example.md
                 - Lecture 6. Daemon threads: course/python-concurrency/S01L06-Daemon-threads.md
                 - Lecture 7. Thread Pools: course/python-concurrency/S01L07-Thread-Pools.md
+                - Section Summary: course/python-concurrency/S01-Summary.md
           # - Mock System Design Interview:
             # - course/system-design-interview/index.md
             # - Design a URL Shortening Service: course/system-design-interview/url-shortening-service.md
@@ -61,7 +62,7 @@ theme:
               name: Switch to dark mode
 
     name: "material"
-    language: "en"
+    language: en
     #palette:
     #primary: 'indigo'
     #accent: 'indigo'
