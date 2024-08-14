@@ -26,6 +26,8 @@ nav:
                 - Lecture 6. Daemon threads: course/python-concurrency/S01L06-Daemon-threads.md
                 - Lecture 7. Thread Pools: course/python-concurrency/S01L07-Thread-Pools.md
                 - Section Summary: course/python-concurrency/S01-Summary.md
+          - Python OOP:
+              - course/python-oop/index.md
           # - Mock System Design Interview:
             # - course/system-design-interview/index.md
             # - Design a URL Shortening Service: course/system-design-interview/url-shortening-service.md

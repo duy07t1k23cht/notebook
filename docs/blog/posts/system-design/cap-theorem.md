@@ -3,7 +3,7 @@ date: 2024-01-03
 authors:
     - me
 categories:
-    - ":flag_gb:"
+    - "English :flag_gb:"
     - ":computer: System Design"
 tags:
     - CAP theorem

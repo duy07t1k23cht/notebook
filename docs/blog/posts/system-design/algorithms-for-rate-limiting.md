@@ -3,7 +3,7 @@ date: 2024-01-04
 authors:
     - me
 categories:
-    - ":flag_gb:"
+    - "English :flag_gb:"
     - ":computer: System Design"
 ---
 

@@ -4,7 +4,7 @@ date: 2024-01-01
 authors:
     - me
 categories:
-    - ":flag_vn:"
+    - "Vietnamese :flag_vn:"
     - ":computer: System Design"
 tags:
     - Hadoop
