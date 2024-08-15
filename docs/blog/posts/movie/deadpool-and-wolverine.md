@@ -10,10 +10,10 @@ categories:
 
 Cả năm 2024 được đúng 1 phim nên ra rạp xem hẳn 2 lần (lần 2 free vì có coupon :v). Sau đây là những cảm nhận, suy nghĩ của cá nhân về **Deadpool & Wolverine**.
 
+<!-- more -->
+
 !!! warning "Lưu ý"
     Đây chỉ là cảm nhận của con dân bình thường đi xem phim, không thể chuyên nghiệp như mấy ông chuyên review phim được. 
-
-<!-- more -->
 
 ## Cảm nhận sau khi ra khỏi rạp
 
