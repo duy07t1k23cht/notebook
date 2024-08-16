@@ -28,6 +28,19 @@ nav:
                 - Section Summary: course/python-concurrency/S01-Summary.md
           - Python OOP:
               - course/python-oop/index.md
+              - Section 1. Classes and objects:
+                - Lecture 1. Object-oriented programming: course/python-oop/S01L01-Object-oriented-programming.md
+                - Lecture 2. Class: course/python-oop/S01L02-Class.md
+                - Lecture 3. Class variables: course/python-oop/S01L03-Class-variables.md
+                - Lecture 4. Python Methods: course/python-oop/S01L04-Instance-methods.md
+                - Lecture 5. __init__(): course/python-oop/S01L05-__init__.md
+                - Lecture 6. Instance variables: course/python-oop/S01L06-Instance-variables.md
+                - Lecture 7. Private attributes: course/python-oop/S01L07-Private-attributes.md
+                - Lecture 8. Class attributes: course/python-oop/S01L08-Class-attributes.md
+                - Lecture 9. Class methods: course/python-oop/S01L09-Class-methods.md
+                - Lecture 10. Static methods: course/python-oop/S01L10-Static-methods.md
+              - Section 2. Special methods:
+                - Section Summarys:  course/python-oop/S02-Summary.md
           # - Mock System Design Interview:
             # - course/system-design-interview/index.md
             # - Design a URL Shortening Service: course/system-design-interview/url-shortening-service.md

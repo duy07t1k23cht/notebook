@@ -16,9 +16,29 @@ For more information on the course, visit the original source [here](https://www
 
 ### Section 1. Classes and objects
 
+- [Lecture 1. Object-oriented programming](S01L01-Object-oriented-programming.md)
+- [Lecture 2. Class](S01L02-Class.md)
+- [Lecture 3. Class variables](S01L03-Class-variables.md)
+- [Lecture 4. Instance methods](S01L04-Instance-methods.md)
+- [Lecture 5. `__init__()`](S01L05-__init__.md)
+- [Lecture 6. Instance variables](S01L06-Instance-variables.md)
+- [Lecture 7. Private attributes](S01L07-Private-attributes.md)
+- [Lecture 8. Class attributes](S01L08-Class-attributes.md)
+- [Lecture 9. Class methods](S01L09-Class-methods.md)
+- [Lecture 10. Static methods](S01L10-Static-methods.md)
+- [Section Summary - Classes and objects]()
+
 ### Section 2. Special methods
 
+- [Section Summary - Special methods](S02-Summary.md)
+
 ### Section 3. Property
+
+- [Lecture 1. Property](S03L01-Property.md)
+- [Lecture 2. `@property` decorator]()
+- [Lecture 3. Read-only property]()
+- [Lecture 4. Delete a property]()
+- [Section Summary - Property]()
 
 ### Section 4. Single inheritance
 

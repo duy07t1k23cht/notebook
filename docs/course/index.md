@@ -10,7 +10,7 @@
 
     [:octicons-arrow-right-24: Go to course notes](python-concurrency/index.md){.md-button}
 
--   :material-language-python:{ .lg .middle } **Python OOP**
+-   :material-language-python:{ .lg .middle } **Python OOP** $~$ :fontawesome-solid-spinner:{ .middle }
 
     ---
 
