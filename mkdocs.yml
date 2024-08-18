@@ -40,7 +40,13 @@ nav:
                 - Lecture 9. Class methods: course/python-oop/S01L09-Class-methods.md
                 - Lecture 10. Static methods: course/python-oop/S01L10-Static-methods.md
               - Section 2. Special methods:
-                - Section Summarys:  course/python-oop/S02-Summary.md
+                - Section Summary: course/python-oop/S02-Summary.md
+              - Section 3. Property:
+                - Lecture 1. Property: course/python-oop/S03L01-Property.md
+                - Lecture 2. @property decorator: course/python-oop/S03L02-property-decorator.md
+                - Lecture 3. Read-only property: course/python-oop/S03L03-Read-only-property.md
+                - Lecture 4. Delete a property: course/python-oop/S01L04-Delete-a-property.md
+                - Section Summary: course/python-oop/S03-Summary.md
           # - Mock System Design Interview:
             # - course/system-design-interview/index.md
             # - Design a URL Shortening Service: course/system-design-interview/url-shortening-service.md

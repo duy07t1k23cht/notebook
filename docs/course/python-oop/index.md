@@ -35,7 +35,7 @@ For more information on the course, visit the original source [here](https://www
 ### Section 3. Property
 
 - [Lecture 1. Property](S03L01-Property.md)
-- [Lecture 2. `@property` decorator]()
+- [Lecture 2. `@property` decorator](S03L02-property-decorator.md)
 - [Lecture 3. Read-only property]()
 - [Lecture 4. Delete a property]()
 - [Section Summary - Property]()
