@@ -4,7 +4,7 @@ authors:
     - me
 categories:
     - "English :flag_gb:"
-    - ":computer: System Design"
+    - ":busts_in_silhouette: Interview Preparation"
 ---
 
 # **Soft Skills Interview Questions And Answers To Prepare**
