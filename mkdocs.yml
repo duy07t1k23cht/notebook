@@ -15,6 +15,22 @@ nav:
           - leetcode/index.md
     - Courses:
           - course/index.md
+          - Advanced Python:
+              - course/advance-python/index.md
+              - Section1. Variables & Memory Management:
+                - Section Summary: course/advance-python/S01-Summary.md
+              - Section 2. Integer types:
+                - Section Summary: course/advance-python/S02-Summary.md
+              - Section 3. Float:
+                - Section Summary: course/advance-python/S03-Summary.md
+              - Section 4. Decimal:
+                - Section Summary: course/advance-python/S04-Summary.md
+              - Section 7. Decorator:
+                - Section Summary: course/advance-python/S07-Summary.md
+              - Section 8. Named Tuples:
+                - Section Summary: course/advance-python/S08-Summary.md
+              - Section 9. Sequence Types:
+                - Section Summary: course/advance-python/S09-Summary.md
           - Python Concurrency:
               - course/python-concurrency/index.md
               - Section1. Multithreading:

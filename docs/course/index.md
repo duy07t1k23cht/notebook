@@ -2,6 +2,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-language-python:{ .lg .middle } **Advanced Python** $~$ :fontawesome-solid-spinner:{ .middle }
+
+    ---
+
+    Explains the advanced Python concepts and helps you understand how and why things work in Python under the hood.
+
+    [:octicons-arrow-right-24: Go to course notes](advance-python/index.md){.md-button}
+
 -   :material-language-python:{ .lg .middle } **Python Concurrency** $~$ :fontawesome-solid-spinner:{ .middle }
 
     ---
