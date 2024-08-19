@@ -3,7 +3,8 @@
 For more information on the course, visit the original source [here](https://www.pythontutorial.net/advanced-python/).
 
 !!! abstract
-Explains the advanced Python concepts and helps you understand how and why things work in Python under the hood.
+
+    Explains the advanced Python concepts and helps you understand how and why things work in Python under the hood.
 
 !!! warning "Some of the advanced Python concepts introduced in the original source are already familiar to me, so I might skip those in this course. The bottom line is that this is my notebook, not a textbook."
 
