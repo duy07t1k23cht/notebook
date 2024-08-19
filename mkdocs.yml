@@ -17,20 +17,16 @@ nav:
           - course/index.md
           - Advanced Python:
               - course/advance-python/index.md
-              - Section1. Variables & Memory Management:
-                - Section Summary: course/advance-python/S01-Summary.md
-              - Section 2. Integer types:
-                - Section Summary: course/advance-python/S02-Summary.md
-              - Section 3. Float:
-                - Section Summary: course/advance-python/S03-Summary.md
-              - Section 4. Decimal:
-                - Section Summary: course/advance-python/S04-Summary.md
-              - Section 7. Decorator:
-                - Section Summary: course/advance-python/S07-Summary.md
-              - Section 8. Named Tuples:
-                - Section Summary: course/advance-python/S08-Summary.md
-              - Section 9. Sequence Types:
-                - Section Summary: course/advance-python/S09-Summary.md
+              - Section1. Variables & Memory Management: course/advance-python/S01-Summary.md
+              - Section 2. Integer types: course/advance-python/S02-Summary.md
+              - Section 3. Float: course/advance-python/S03-Summary.md
+              - Section 4. Decimal: course/advance-python/S04-Summary.md
+              - Section 7. Decorator: course/advance-python/S07-Summary.md
+              - Section 8. Named Tuples: course/advance-python/S08-Summary.md
+              - Section 9. Sequence Types: course/advance-python/S09-Summary.md
+              - Section 10. Iterators and Iterables: course/advance-python/S10-Summary.md
+              - Section 11. Generators: course/advance-python/S11-Summary.md
+              - Section 12. Context Managers: course/advance-python/S12-Summary.md
           - Python Concurrency:
               - course/python-concurrency/index.md
               - Section1. Multithreading:

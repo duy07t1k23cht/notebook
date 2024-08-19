@@ -1,4 +1,4 @@
-# Section 4. Decimal
+# Decimal
 
 !!! abstract "Summary"
     - Use the Python `decimal` module when you want to support fast correctly-rounded decimal floating-point arithmetic.

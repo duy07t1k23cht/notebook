@@ -1,4 +1,4 @@
-# Section Summary - Named Tuple
+# Named Tuple
 
 A **named tuple** is a subclass of `tuple`. On top of that, it adds property names to the positional elements.
 

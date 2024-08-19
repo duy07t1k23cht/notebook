@@ -1,4 +1,4 @@
-# Section Summary - Sequence Types
+# Sequence Types
 
 A custom sequence type needs to implement the following methods:
 

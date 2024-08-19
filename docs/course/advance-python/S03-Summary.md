@@ -1,4 +1,4 @@
-# Section Summary - Float
+# Float
 
 !!! abstract "Summary"
 

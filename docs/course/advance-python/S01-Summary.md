@@ -1,4 +1,4 @@
-# Section Summary - Variables & Memory Management
+# Variables & Memory Management
 
 !!! abstract "Summary"
 
