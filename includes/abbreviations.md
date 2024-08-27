@@ -21,3 +21,7 @@
 *[daemon thread]: A daemon thread is a background thread. In other words, daemon threads execute tasks in the background.
 
 *[ad-hoc]: Ad hoc is a Latin phrase meaning literally 'for this'. In English, it typically signifies a solution designed for a specific purpose, problem, or task rather than a generalized solution adaptable to collateral instances.
+
+*[race condition]: A race condition occurs when two or more threads try to access a shared variable simultaneously, leading to unpredictable outcomes.
+
+*[thread lock]: A thread lock is a synchronization primitive that provides exclusive access to a shared resource in a multithreaded application.

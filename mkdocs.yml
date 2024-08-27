@@ -17,7 +17,7 @@ nav:
           - course/index.md
           - Advanced Python:
               - course/advance-python/index.md
-              - Section1. Variables & Memory Management: course/advance-python/S01-Summary.md
+              - Section 1. Variables & Memory Management: course/advance-python/S01-Summary.md
               - Section 2. Integer types: course/advance-python/S02-Summary.md
               - Section 3. Float: course/advance-python/S03-Summary.md
               - Section 4. Decimal: course/advance-python/S04-Summary.md
@@ -29,7 +29,7 @@ nav:
               - Section 12. Context Managers: course/advance-python/S12-Summary.md
           - Python Concurrency:
               - course/python-concurrency/index.md
-              - Section1. Multithreading:
+              - Section 1. Multithreading:
                 - Lecture 1. Understanding Processes and Threads: course/python-concurrency/S01L01-Understanding-Processes-and-Threads.md
                 - Lecture 2. Threading: course/python-concurrency/S01L02-Threading.md
                 - Lecture 3. Extending the Thread class: course/python-concurrency/S01L03-Extending-the-Thread-class.md
@@ -38,6 +38,11 @@ nav:
                 - Lecture 6. Daemon threads: course/python-concurrency/S01L06-Daemon-threads.md
                 - Lecture 7. Thread Pools: course/python-concurrency/S01L07-Thread-Pools.md
                 - Section Summary: course/python-concurrency/S01-Summary.md
+              - Section 2. Thread Synchronization Techniques:
+                - Lecture 1. Lock: course/python-concurrency/S02L01-Lock.md
+                - Lecture 2. Event: course/python-concurrency/S02L02-Event.md
+                - Lecture 3. How to stop a thread: course/python-concurrency/S02L03-How-to-stop-a-thread.md
+                - Lecture 4. Semaphore: course/python-concurrency/S02L04-Semaphore.md
           - Python OOP:
               - course/python-oop/index.md
               - Section 1. Classes and objects:

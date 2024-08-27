@@ -7,7 +7,7 @@
 | Definition                       | A **process** is an instance of a program running on a computer.   | A **thread** is a unit of execution within a process. |
 | Memory Sharing                   | Memory is **not shared** between processes                         | Memory is **shared** between threads within a process |
 | Memory footprint                 | Large                                                              | Small                                                 |
-| CPU-bound & I/O-bound processing | Optimized for **CPU-bound** tasks                                  | Optimized for **I/O bound** tasks                     |
+| CPU-bound & I/O-bound processing | Use for **CPU-bound** tasks                                        | Use for **I/O bound** tasks                           |
 | Starting time                    | **Slower** than a thread                                           | **Faster** than a process                             |
 | Interruptablity                  | Child processes are **interruptible**.                             | Threads are **not interruptible**.                    |
 

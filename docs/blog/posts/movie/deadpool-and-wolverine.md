@@ -33,8 +33,8 @@ Nhưng lại nhắc lại, mục đích của phim là để fan service. Mình 
 
 ### Chris
 
-<figure markdown="span">
-    ![](https://images.news18.com/ibnlive/uploads/2024/07/chris-evans-deadpool-wolverine-2024-07-a0d268477de2100e1f7d07e8457df9db.jpg){ width="70%" }
+<figure markdown="span" style="width: 70%">
+    ![](https://images.news18.com/ibnlive/uploads/2024/07/chris-evans-deadpool-wolverine-2024-07-a0d268477de2100e1f7d07e8457df9db.jpg)
 </figure>
 
 Lúc ổng bỏ khăn ra để lộ mặt bất ngờ vcl.
@@ -47,8 +47,8 @@ Trước khi phim ra mắt có rất nhiều ảnh hậu trường bị leak ra 
 
 Chỉ một vài phút sau cái khoảng khắc phía trên thì lại được ồ thêm quả nữa =))
 
-<figure markdown="span">
-    ![](https://i.ytimg.com/vi/wr6UaXNlM90/hqdefault.jpg){ width="70%" }
+<figure markdown="span" style="width: 70%">
+    ![](https://i.ytimg.com/vi/wr6UaXNlM90/hqdefault.jpg)
 </figure>
 
 Nói thật là mình chưa xem Fantastic Four của Chris (vẫn biết có một Fantastic Four mà Chris là Human Torch, nhưng chưa xem) thế nên lúc đấy vẫn luôn nghĩ đây là một biến thể của Captain (phim cũng trôn là lấy cái khăn che cái logo trước ngực và mặt Chris lúc này vẫn đang nghiêm túc).
@@ -63,8 +63,8 @@ Link soundtrack lúc đấy: [:fontawesome-brands-youtube: Rob Simonsen - Hideou
 
 ### Comic accurate suit
 
-<figure markdown="span">
-    ![](https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/logan-finally-puts-on-the-mask-in-deadpool-wolverine.jpg){ width="70%" }
+<figure markdown="span" style="width: 70%">
+    ![](https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/logan-finally-puts-on-the-mask-in-deadpool-wolverine.jpg)
 </figure>
 
 Là cái lúc Wolverine đưa tay ra sau để đội cái mặt nạ lên. Được nhìn thấy bộ suit này trên người Huge vẫn là một cảm giác gì đó lâng lâng.
@@ -134,7 +134,14 @@ Như vậy có thể suy ra những vũ trụ trong Spider-Verse và những v�
 
 Tuy nhiên vấn đề nằm ở đây. Trong ATSV, Earth-616 lại là một vũ trụ khác.
 
-Không biết là Marvel và Sony có ngồi với nhau để cùng tạo ra bức tranh đa vũ trụ này không. Thực ra thì chi tiết Earth-616 xuất hiện trong ATSV cũng không phải chi tiết gì lớn lắm, Marvel và Sony cứ mặc kệ coi như nó không xảy ra cũng chả sao. Sony cũng từng đổi vũ trụ của Peter B. Parker từ Earth-616 thành Earth-616B như không có chuyện gì xảy ra đấy thôi.
+<figure markdown="span">
+    ![](../../images/e616-spiderverse.png)
+    <figcaption>Một cảnh trong Spider-Man: Across the Spider-Verse. Có thể thấy ở góc bên trái có SpiderCide đến từ Earth-616.</figcaption>
+</figure>
+
+Không biết là Marvel và Sony có ngồi với nhau để cùng tạo ra bức tranh đa vũ trụ này không, hay là đa vũ trụ của Spider Verse và đa vũ trụ của MCU chả liên quan gì đến nhau.
+
+Thực ra thì chi tiết Earth-616 xuất hiện trong ATSV cũng không phải chi tiết gì lớn lắm, Marvel và Sony cứ mặc kệ coi như nó không xảy ra cũng chả sao. Sony cũng từng đổi vũ trụ của Peter B. Parker từ Earth-616 thành Earth-616B như không có chuyện gì xảy ra đấy thôi.
 
 Cái này chắc phải chờ Beyond the Spider-Verse xem có thêm thông tin gì không.
 
