@@ -43,6 +43,20 @@ nav:
                 - Lecture 2. Event: course/python-concurrency/S02L02-Event.md
                 - Lecture 3. How to stop a thread: course/python-concurrency/S02L03-How-to-stop-a-thread.md
                 - Lecture 4. Semaphore: course/python-concurrency/S02L04-Semaphore.md
+              - Section 3. Sharing Data Between Threads:
+                - Lecture 1. Thread-safe Queue: course/python-concurrency/S03L01-Thread-safe-Queue.md
+              - Section 4. Multiprocessing:
+                - Lecture 1. Multiprocessing: course/python-concurrency/S04L01-Multiprocessing.md
+                - Lecture 2. Process Pools: course/python-concurrency/S04L02-Process-Pools.md
+              - Section 5. Async I/O:
+                - Lecture 1. Understanding Event Loop: course/python-concurrency/S05L01-Understanding-Event-Loop.md
+                - Lecture 2. async/await: course/python-concurrency/S05L02-async-await.md
+                - Lecture 3. Creating tasks: course/python-concurrency/S05L03-Creating-tasks.md
+                - Lecture 4. Canceling tasks: course/python-concurrency/S05L04-Canceling-tasks.md
+                - Lecture 5. Canceling a task with a timeout: course/python-concurrency/S05L05-Canceling-a-task-with-a-timeout.md
+                - Lecture 6. asyncio.wait(): course/python-concurrency/S05L06-asyncio-wait.md
+                - Lecture 7. Future: course/python-concurrency/S05L07-Future.md
+                - Lecture 8. Running multiple tasks concurrently with gather(): course/python-concurrency/S05L08-Running-multiple-tasks-concurrently-with-gather.md
           - Python OOP:
               - course/python-oop/index.md
               - Section 1. Classes and objects:

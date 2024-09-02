@@ -34,6 +34,20 @@ For more information on the course, visit the original source [here](https://www
 
 ### **Section 3.** Sharing Data Between Threads
 
+-   [**Lecture 1.** Thread-safe Queue](S03L01-Thread-safe-Queue.md)
+
 ### **Section 4.** Multiprocessing
 
+-   [**Lecture 1.** Multiprocessing](S04L01-Multiprocessing.md)
+-   [**Lecture 2.** Process Pools](S04L02-Process-Pools.md)
+
 ### **Section 5.** Async I/O
+
+-   [**Lecture 1.** Understanding Event Loop](S05L01-Understanding-Event-Loop.md)
+-   [**Lecture 2.** `async`/`await`](S05L02-async-await.md)
+-   [**Lecture 3.** Creating tasks](S05L03-Creating-tasks.md)
+-   [**Lecture 4.** Canceling tasks](S05L04-Canceling-tasks.md)
+-   [**Lecture 5.** Canceling a task with a timeout](S05L05-Canceling-a-task-with-a-timeout.md)
+-   [**Lecture 6.** `asyncio.wait()`](S05L06-asyncio-wait.md)
+-   [**Lecture 7.** `Future`](S05L07-Future.md)
+-   [**Lecture 8.** Running multiple tasks concurrently with `gather()`](S05L08-Running-multiple-tasks-concurrently-with-gather.md)
