@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-language-python:{ .lg .middle } **Advanced Python** $~$ :fontawesome-solid-spinner:{ .middle }
+-   :material-language-python:{ .lg .middle } **Advanced Python**
 
     ---
 
