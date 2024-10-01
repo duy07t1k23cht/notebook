@@ -33,8 +33,13 @@ Nhưng lại nhắc lại, mục đích của phim là để fan service. Mình 
 
 ### Chris
 
-<figure markdown="span" style="width: 70%">
+<!-- <figure markdown="span" style="width: 70%">
     ![](https://images.news18.com/ibnlive/uploads/2024/07/chris-evans-deadpool-wolverine-2024-07-a0d268477de2100e1f7d07e8457df9db.jpg)
+</figure> -->
+
+<figure markdown="span">
+    ![](../../images/dw1.png)
+    <figcaption>Hoàn toàn bất ngờ khi Chris xuất hiện</figcaption>
 </figure>
 
 Lúc ổng bỏ khăn ra để lộ mặt bất ngờ vcl.
@@ -47,8 +52,9 @@ Trước khi phim ra mắt có rất nhiều ảnh hậu trường bị leak ra 
 
 Chỉ một vài phút sau cái khoảng khắc phía trên thì lại được ồ thêm quả nữa =))
 
-<figure markdown="span" style="width: 70%">
-    ![](https://i.ytimg.com/vi/wr6UaXNlM90/hqdefault.jpg)
+<figure markdown="span">
+    ![](../../images/dw2.png)
+    <figcaption>Flame On</figcaption>
 </figure>
 
 Nói thật là mình chưa xem Fantastic Four của Chris (vẫn biết có một Fantastic Four mà Chris là Human Torch, nhưng chưa xem) thế nên lúc đấy vẫn luôn nghĩ đây là một biến thể của Captain (phim cũng trôn là lấy cái khăn che cái logo trước ngực và mặt Chris lúc này vẫn đang nghiêm túc).
@@ -63,8 +69,9 @@ Link soundtrack lúc đấy: [:fontawesome-brands-youtube: Rob Simonsen - Hideou
 
 ### Comic accurate suit
 
-<figure markdown="span" style="width: 70%">
-    ![](https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/logan-finally-puts-on-the-mask-in-deadpool-wolverine.jpg)
+<figure markdown="span">
+    ![](../../images/dw3.png)
+    <figcaption>Huge mà lùn đi khoảng mấy chục phân nữa thì y chang từ trong truyện bước ra.</figcaption>
 </figure>
 
 Là cái lúc Wolverine đưa tay ra sau để đội cái mặt nạ lên. Được nhìn thấy bộ suit này trên người Huge vẫn là một cảm giác gì đó lâng lâng.
@@ -86,12 +93,17 @@ Một thắc mắc phổ biến xuất hiện trên mạng là thế này:
 
 Nhưng phim Logan lại lấy bối cảnh là năm 2029, có nghĩa là 2024 thì đáng lẽ Logan vẫn sống, vậy thì Wade đào mộ của ai lên rồi nhảy Bye Bye Bye vậy?
 
+<figure markdown="span">
+    ![](../../images/dw4.png)
+    <figcaption>Cảnh Wade qua Earth-616 để nộp CV xin vào Avenger, ghi rõ đây là ngày 14/3/2018, tức là ít lâu trước sự kiện Infinity War.</figcaption>
+</figure>
+
 Có một số giải thích là những sự kiện trong Logan diễn ra ở một vũ trụ khác, nhưng thế thì thật là mất ý nghĩa cho cái phim Logan. Hành trình của Logan chỉ thực sự có ý nghĩa nếu Logan đấy chính là Logan trong suốt dòng phim X-men chứ.
 
 Giả thiết của mình là thế này:
 
-- Năm 2024, Wade dùng đồng hồ của Cabel để du hành về năm 2018 của Earth-616 để xin vào Avenger. Wade chọn thời gian này có thể là vì lúc này là không lâu trước khi sự kiện Infinity War xảy ra. Mà Avenger từ Infinity War trở đi thì tình hình khá là loạn (có khi trong 14 triệu thực tại của Dr. Strange thấy chắc cũng có mấy thực tại có Deadpool đánh Thanos :v)
-- 6 năm sau (tức 2030 ở Earth-10005) là những sự kiện diễn tra trong phim. Lúc này thì Logan đã chết. Cái xác mà Deadpool đào ở đầu phim chính là của Logan mà ta vẫn biết, ở cùng vũ trụ đấy.
+- Năm 2024 của Earth-10005, Wade dùng đồng hồ của Cabel để du hành về năm 2018 của Earth-616 để xin vào Avenger. Wade chọn thời gian này có thể là vì lúc này là không lâu trước khi sự kiện Infinity War xảy ra. Mà Avenger từ Infinity War trở đi thì tình hình khá là loạn (có khi trong 14 triệu thực tại của Dr. Strange thấy chắc cũng có mấy thực tại có Deadpool đánh Thanos :v)
+- 6 năm sau (tức 2030 ở Earth-10005) là những sự kiện diễn ra trong phim. Lúc này thì Logan đã chết. Cái xác mà Deadpool đào ở đầu phim chính là của Logan mà ta vẫn biết, ở cùng vũ trụ đấy.
 
 Mấu chốt ở đây là đồng hồ của Cabel du hành ở vũ trụ này sang vũ trụ khác nhưng không nhất thiết phải cùng mốc thời gian. Cái mốc thời gian mình đưa ra là 2030 cũng là ví dụ thôi, nó có thể là bất kỳ năm nào sau 2029. Năm mấy cũng k ảnh hưởng gì nhiều vì đây không phải là vũ trụ chính Earth-616.
 
@@ -103,12 +115,17 @@ Wolverine ở Earth-10005 đã chết. Wolverine ở cuối phim là từ vũ tr
 
 Laura ở cuối phim, theo mình là Laura của chính vũ trụ này (Earth-10005, chính là Laura trong phim Logan) chứ không phải Laura ở The Void. Bằng chứng là cuối phim không có Elektra, Blade hay Gambit. Chả nhẽ Wade lại đưa mỗi Laura về vũ trụ của mình còn mấy ông kia thì kệ à. Hơi tiêu cực nhưng mình nghĩ nguyên dàn ở The Void bị Alioth ăn hết r. Những gì Wade làm là làm cho vũ trụ của họ nhớ về họ thôi.
 
+<figure markdown="span">
+    ![](../../images/dw5.png)
+    <figcaption>Cảnh party ở cuối phim. Có Laura nhưng không có Elektra, Blade hay Gambit.</figcaption>
+</figure>
+
 !!! note
     Mình biết là trong một bài phỏng vấn thì Dafne Keen (diễn viên đóng Laura) có khẳng định Laura ở The Void chính là Laura ở trong Logan. Nhưng thứ nhất, Logan hy sinh để cứu Laura xong Laura lại bị TVA bắt sẽ khiến cho cái chết của Logan khá vô nghĩa. Thứ hai là như mình nói ở trên, thế thì cuối phim Wade đưa mỗi Laura về chứ không đưa mấy anh em khác về à.
 
     Nên mình nghĩ mấy cái diễn viên hay đạo diễn giải thích ở ngoài phim thì cứ kệ đi. Kevin cũng từng nói vũ trụ chính là Earth-199999 nhưng rồi phim này lại tiết lộ nó là Earth-616 đấy thôi.
 
-Và giả thiết này kết hợp với giả thiết ở mục 1 mình nghĩ sẽ khớp nhau. Vì Laura ở cuối Deadpool & Wolverine rõ ràng là già hơn Laura ở Logan, vì thế rất hợp lý nếu nói rằng mốc thời gian của Deadpool & Wolverine là sau năm 2029.
+Và giả thiết này kết hợp với giả thiết ở mục 1 cũng sẽ khớp nhau. Vì Laura ở cuối Deadpool & Wolverine rõ ràng là già hơn Laura ở Logan, vì thế rất hợp lý nếu nói rằng mốc thời gian của Deadpool & Wolverine là sau năm 2029.
 
 ### 3. TVA?
 
@@ -140,6 +157,10 @@ Tuy nhiên vấn đề nằm ở đây. Trong ATSV, Earth-616 lại là một v�
 </figure>
 
 Không biết là Marvel và Sony có ngồi với nhau để cùng tạo ra bức tranh đa vũ trụ này không, hay là đa vũ trụ của Spider Verse và đa vũ trụ của MCU chả liên quan gì đến nhau.
+
+!!! note
+
+    Mình cũng có đề cập đến vấn đề này ở bài [**Spider-Man: Across the Spider-Verse** - Cảm nhận](spider-man-across-the-spider-verse.md).
 
 Thực ra thì chi tiết Earth-616 xuất hiện trong ATSV cũng không phải chi tiết gì lớn lắm, Marvel và Sony cứ mặc kệ coi như nó không xảy ra cũng chả sao. Sony cũng từng đổi vũ trụ của Peter B. Parker từ Earth-616 thành Earth-616B như không có chuyện gì xảy ra đấy thôi.
 
